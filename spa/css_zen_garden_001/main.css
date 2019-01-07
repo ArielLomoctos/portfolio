@@ -1,0 +1,242 @@
+/* https://htmlcolorcodes.com/color-chart/flat-design-color-chart */
+/* https://www.canva.com/learn/website-color-schemes/ */
+/* http://stephengacheru.com/ */
+
+@import url('https://fonts.googleapis.com/css?family=Charm');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+/*  */
+/* h1 {border: 1px solid rgb(98, 214, 44);} */
+/* form {border: 1px solid rgb(98, 214, 44);} */
+/* div {border: 1px solid rgb(98, 214, 44);} */
+/*  */
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 15px/1.6 Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* header */
+
+header {
+    background-color: #1B4F72;
+    float: left;
+    width: 100%;
+    border-bottom: 3px solid #e8491d; 
+}
+
+header .zen-logo {
+    float: left;
+    margin-left: 1%;
+}
+
+header .zen-logo h1 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+header .zen-logo h1 span {
+    color: #e8491d;
+}
+
+.nav-menu ul {
+    padding: 0;
+    float: right;
+
+    margin: 0;
+    margin-top: 12px;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li a {
+    padding: 0;
+    margin: 0;
+
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+
+}
+
+#active {
+    color: #e8491d;
+}
+
+/* fix banner */
+
+.fix-banner {
+    background: url('images/good-programmer-banner-final.jpg') no-repeat -500px 0;
+    width: 100%;
+    min-height: 450px;
+    background-color: #000;
+}
+
+.banner-text {
+    float: left;
+    color: #fff;
+
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+
+.banner-text h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: #fff;
+}
+.banner-text p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.download {
+    background-color: #e8491d;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.download:hover {
+    background-color: #3498DB;
+}
+
+
+/* quick-info */
+
+.quick-info {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 400px;
+    background-color: #e6e6e6;
+}
+
+.quick-info img {
+    width: 450px;
+}
+
+.quick-info-container,
+.quick-info-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.quick-info-text p {
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+/* Columns and Row Section */
+
+.two-col-two-row {
+    width: 95%;
+    margin: auto; 
+}
+
+.row-one, .row-two  {
+    display: flex;
+}
+
+.row-one-content-one, .row-one-content-two {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    /* border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px; */
+}
+
+.row-two-content-one, .row-two-content-two {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+    /* border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px; */
+}
+
+.two-col-two-row h2 {
+    color: #5DADE2;
+}
+
+.two-col-two-row img {
+    width: 250px;
+    /* opacity: 0.5; */
+}
+
+.two-col-two-row p {
+    font-family: 'Raleway';
+}
+
+footer {
+    height: 260px;
+    border-top: 10px solid #e8491d;
+    background-color: #1B4F72;
+
+    display: flex;
+}
+
+.footer-nav {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav ul li{
+    list-style: none;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-copyright {
+    color: #fff;
+    align-items: center;
+}
+
+.footer-copyright p {
+    margin: 0;
+    padding: 0;
+    /* width: 450px; */
+}
+
+
+.footer-copyright span {
+    font-family: 'Staatliches';
+    font-size: 80px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
