@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css?family=Charm');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+/* Global CSS */
+
+body {
+    font: 15px/1.5 Arial, Helvetiva, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.button01 {
+    height: 38px;;
+    background: #E8491D;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+/* Header CSS */
+
+header {
+    /* background: #35424A; */
+    background: #034f84;
+    color: #fff;
+    padding-top: 20px;
+    min-height:70px;
+    border-bottom: #E8491D 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Raleway';
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px; /* top right bottom left */
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    font-family: 'Staatliches';
+    letter-spacing: 3px;
+    font-size: 43px;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 20px;
+}
+
+header .highlight, header .current a {
+    color: #E8491D;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Banner CSS */
+
+#showcase {
+    min-height: 400px;
+    background: url('../images/web-banner.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 90px;
+
+    /* background-color: #f7786b; */
+    color: #fff;
+    padding: 0;
+}
+
+#showcase p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #034f84;
+    padding: 15px;
+    font-size: 30px;
+    opacity: .8;
+}
+
+/* Newsletter  */
+
+#newsletter {
+    padding: 15px;
+    color: #fff;
+    background: #034f84;
+    font-family: 'Raleway';
+}
+
+#newsletter h1 {
+    float: left;
+    letter-spacing: 5px;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 20px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 24px;
+    width: 550px;
+    font-family: 'Karla';
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+
+.button01 {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* boxes section */
+
+#boxes {
+    margin-top: 45px;
+    font-family: 'Raleway';
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+
+    text-align: center;
+}
+#boxes .box img {
+    width: 290px;
+}
+
+footer {
+    padding: 10px;
+    margin-top: 20px;
+    color: #ccc;
+    background: #034f84;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width:1450px){
+
+    header #branding, 
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #showcase h1 {
+        margin-top: 40px;
+    }
+
+    #showcase p {
+        font-size: 20px;
+    }
+
+    #newsletter form {
+        margin-bottom: 20px;
+    }
+    #newsletter button {
+        display: block;
+        width: 100%;
+    }
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #boxes .box img {
+        width: 200px;
+    }
+
+}
+
+@media(max-width:1050px){
+
+    header #branding, 
+    header nav,
+    header nav li,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header h1 {
+        text-transform: uppercase;
+    }
+
+    header nav li {
+        display: none;
+    }
+
+    #showcase h1 {
+        margin-top: 40px;
+        font-size: 50px;
+    }
+
+    #showcase p {
+        font-size: 15px;
+    }
+
+    #boxes .box img {
+        width: 290px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
